@@ -1426,7 +1426,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #f82249;
   border: 0;
   color: #fff;
-}
+} 
+
 
 #registration .card .btn:hover {
   background-color: #e0072f;
@@ -1449,6 +1450,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #registration #buy-ticket-modal .btn:hover {
   background-color: #e0072f;
+}
+#registration .register-button {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  background-color: #f82249;
+  border: 0;
+  color: #fff !important;
+  transition: all 0.2s;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+#registration .register-button:hover {
+  background-color: #e0072f;
+  color: #fff; /* Keeps the font color white on hover */
 }
 
 /*--------------------------------------------------------------

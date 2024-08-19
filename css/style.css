@@ -1746,11 +1746,30 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-right: 1px solid #ddd;
   }
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .logo-large {
-    max-width: 50%; /* Adjusts the size for smaller screens */
-    object-fit: contain; /* Ensures the top part of the image remains visible */
-    margin: 0 auto; /* Centers the image */
+    max-width: 50%; 
+    object-fit: contain;
+    margin: 0 auto; 
+  }
+} */
+@media (max-width: 768px) {
+  .intro-container {
+    padding: 20px;
+    height: auto; /* Allow the height to adjust on smaller screens */
+  }
+
+  .logo-large {
+    max-width: 30%; /* Scale down further for small screens */
+    position: relative;
+    top: 0;
+    transform: none; /* Reset transformations */
+  }
+
+  #intro {
+    height: auto; /* Allow height to adjust */
+    padding: 20px 0;
+    background-position: center; /* Adjust background position */
   }
 }
 

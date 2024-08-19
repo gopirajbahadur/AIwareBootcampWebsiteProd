@@ -1747,7 +1747,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (max-width: 767px) {
   .logo-large {
-    max-width: 90%; /* Adjusts the size for smaller screens */
+    max-width: 50%; /* Adjusts the size for smaller screens */
     object-fit: contain; /* Ensures the top part of the image remains visible */
     margin: 0 auto; /* Centers the image */
   }

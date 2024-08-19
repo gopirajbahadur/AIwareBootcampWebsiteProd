@@ -1762,7 +1762,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .logo-large {
     max-width: 50%; /* Scale down further for small screens */
-    max-height: 80vh;
+    max-height: 50vh;
     position: relative;
     top: 0;
     transform: none; /* Reset transformations */

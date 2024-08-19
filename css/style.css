@@ -1875,7 +1875,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .logo-large {
   width: 100% !important;
   max-width: 300px; /* Limit the maximum width for larger screens */
-  height: auto; /* Maintain the aspect ratio */
+  height: auto !important; /* Maintain the aspect ratio */
   object-fit: contain; /* Ensure the image is not cropped */
   display: block;
   margin: 0 auto;

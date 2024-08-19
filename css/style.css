@@ -1873,10 +1873,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 } */
 
 .logo-large {
-  width: 100% !important;
-  max-width: 300px; /* Limit the maximum width for larger screens */
-  height: auto !important; /* Maintain the aspect ratio */
-  object-fit: contain; /* Ensure the image is not cropped */
+  width: 100%; /* Ensure it scales properly */
+  max-width: 300px; /* Set a reasonable max width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the entire image is visible */
   display: block;
-  margin: 0 auto;
+  margin: 0 auto; /* Center the image */
+  padding: 0; /* Remove padding */
+  position: relative;
 }

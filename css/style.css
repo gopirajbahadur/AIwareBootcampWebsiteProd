@@ -1872,7 +1872,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 } */
 
 .logo-large {
-  max-width: 100%; /* Ensures the image scales down on smaller screens */
+  max-width: 300px; /* Ensures the image scales down on smaller screens */
   height: auto; /* Maintains the aspect ratio */
   object-fit: contain; /* Makes sure the entire image is visible */
   display: block;

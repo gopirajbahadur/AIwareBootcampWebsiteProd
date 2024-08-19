@@ -1745,6 +1745,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-right: 1px solid #ddd;
   }
 }
+@media (max-width: 767px) {
+  .logo-large {
+    max-width: 90%; /* Adjusts the size for smaller screens */
+    object-fit: contain; /* Ensures the top part of the image remains visible */
+    margin: 0 auto; /* Centers the image */
+  }
+}
 
 @media (min-width: 991px) {
   #schedule .sub-heading {
@@ -1857,9 +1864,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   vertical-align: middle;
 }
 
-/* Style for the large logo above the title */
+/* 
 .logo-large {
-  max-width: 300px; /* Adjust size as needed */
+  max-width: 300px; 
   display: block;
-  margin: 0 auto 20px auto; /* Center the image with margin below */
+  margin: 0 auto 20px auto; 
+} */
+
+.logo-large {
+  max-width: 100%; /* Ensures the image scales down on smaller screens */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: contain; /* Makes sure the entire image is visible */
+  display: block;
+  margin: 0 auto 20px auto; /* Centers the image with margin below */
 }

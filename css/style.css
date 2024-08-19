@@ -1856,11 +1856,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .nav-tabs a {
     padding: 8px 50px;
   }
+  .logo-large {
+    max-width: 25%;
+    max-height: 25vh;
+  }
 }
 
 @media (max-width: 574px) {
   #venue .venue-info h3 {
     font-size: 24px;
+  }
+  .logo-large {
+    max-width: 25%;
+    max-height: 25vh;
   }
 }
 

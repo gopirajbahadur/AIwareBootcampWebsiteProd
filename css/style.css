@@ -506,6 +506,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+  height: auto;
 }
 
 #intro h1 {
@@ -1872,9 +1873,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 } */
 
 .logo-large {
-  max-width: 300px; /* Ensures the image scales down on smaller screens */
-  height: auto; /* Maintains the aspect ratio */
-  object-fit: contain; /* Makes sure the entire image is visible */
+  width: 100% !important;
+  max-width: 300px; /* Limit the maximum width for larger screens */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: contain; /* Ensure the image is not cropped */
   display: block;
-  margin: 0 auto 20px auto; /* Centers the image with margin below */
+  margin: 0 auto;
 }

@@ -1930,3 +1930,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
  /* position: relative;*/
 }
+.pdf-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}

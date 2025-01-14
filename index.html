@@ -36,6 +36,20 @@
 </head>
 
 <body>
+<!-- Overlay Dialog -->
+<div id="miniOverlay" class="overlay">
+  <div class="overlay-content">
+    <button id="closeOverlay" class="close-button">×</button>
+    <img src="img/logo-mini.webp" alt="Mini Logo" class="mini-logo">
+    <h1 class="mb-4 pb-0">AIware Bootcamp - <span>Mini 2025</span></h1>
+    <p>
+      We have a <strong>Mini version</strong> of this bootcamp coming up, co-located with 
+      <strong>ICSE 2025</strong> at the <strong>University of Ottawa</strong> on <strong>May 3-4, 2025</strong>. 
+      Learn more about the event and find all the details on the AIware Bootcamp - Mini by clicking the button below.
+    </p>
+    <a href="mini.html" class="mini-button">Learn More</a>
+  </div>
+</div>
 
   <!--==========================
     Header
@@ -82,6 +96,12 @@
       <img src="img/logo.png" alt="AIware Leadership Bootcamp 2024" class="logo-large">
       <h1 class="mb-4 pb-0">AIware&nbspLeadership<br><span>Bootcamp 2024</span></h1>
       <p class="mb-4 pb-0">Queen's University Downtown Toronto Campus, Canada - November 03 - 08, 2024.</p>
+      <p class="mb-4 pb-0">
+        <img src="img/logo-mini.webp" alt="Mini Logo" style="width: 20px; vertical-align: middle; margin-right: 8px;">
+        If you are looking for <strong>AIware Bootcamp - Mini 2025 (co-located with ICSE 2025)</strong>, 
+        please <a href="mini.html" style="color: #007bff; text-decoration: underline;">click here</a>.
+      </p>
+
       <div>
         <a href="#registration" class="about-btn scrollto">Register for AIware Bootcamp</a>
         <a href="#about" class="about-btn scrollto">About The Event</a>
@@ -1456,6 +1476,13 @@ If your company registers two participants through industrial registration, you 
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
+  <script>
+    document.getElementById("closeOverlay").addEventListener("click", function () {
+      const overlay = document.getElementById("miniOverlay");
+      overlay.classList.add("hidden"); // Add 'hidden' class to hide overlay
+    });
+  </script>
+  
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>

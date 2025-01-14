@@ -1937,3 +1937,84 @@ body.mobile-nav-active #mobile-nav-toggle {
   vertical-align: middle;
   cursor: pointer;
 }
+/* Overlay background (transparent and centered) */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dimmed background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  visibility: visible; /* Visible by default */
+  opacity: 1;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Hidden overlay state (when closed) */
+.overlay.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* Dialog box content */
+.overlay-content {
+  background: #ffffff; /* White box for content */
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* Mini logo inside the dialog */
+.overlay-content .mini-logo {
+  width: 200px; /* Adjust to match the main logo size */
+  margin-bottom: 20px;
+}
+
+/* Dialog heading */
+.overlay-content h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Dialog text */
+.overlay-content p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: #555555;
+}
+
+/* Button for "Learn More" */
+.overlay-content .mini-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.overlay-content .mini-button:hover {
+  background-color: #0056b3;
+}
+
+/* Close button ("X") */
+.overlay-content .close-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #000;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}

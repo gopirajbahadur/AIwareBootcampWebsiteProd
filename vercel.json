@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/mini",
+        "destination": "/mini.html"
+      }
+    ]
+  }

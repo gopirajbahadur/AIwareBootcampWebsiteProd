@@ -1,9 +1,14 @@
 {
     "rewrites": [
+            {
+        "source": "/",
+        "destination": "/mini-eu.html"
+      },            
       {
         "source": "/mini",
         "destination": "/mini.html"
       },
+
       {
         "source": "/mini-eu",
         "destination": "/mini-eu.html"

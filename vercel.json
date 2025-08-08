@@ -1,5 +1,11 @@
 {
   "cleanUrls": true,
+  "redirects": [
+          {
+        "source": "/",
+        "destination": "/mini-eu.html"
+      }
+  ],
   "rewrites": [
       {
         "source": "/",

@@ -3,6 +3,10 @@
       {
         "source": "/mini",
         "destination": "/mini.html"
+      },
+      {
+        "source": "/mini-eu",
+        "destination": "/mini-eu.html"
       }
     ]
   }

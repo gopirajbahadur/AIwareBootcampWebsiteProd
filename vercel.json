@@ -3,22 +3,22 @@
   "redirects": [
           {
         "source": "/",
-        "destination": "/mini-eu.html"
+        "destination": "/aiware-bootcamp-europe-2025.html"
       }
   ],
   "rewrites": [
       {
         "source": "/",
-        "destination": "/mini-eu.html"
+        "destination": "/aiware-bootcamp-europe-2025.html"
       },            
       {
         "source": "/mini",
-        "destination": "/mini.html"
+        "destination": "/aiware-bootcamp-mini-2025.html"
       },
 
       {
         "source": "/mini-eu",
-        "destination": "/mini-eu.html"
+        "destination": "//aiware-bootcamp-europe-2025.html"
       }
     ]
   }
